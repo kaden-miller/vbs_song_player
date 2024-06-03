@@ -102,63 +102,61 @@ export default function Home() {
         </div>
       </div>
       <div className="w-10/12 p-6">
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4 ">
             1 - Camp Firelight
           </h3>
-          <YouTube videoId="iifU3davIRE" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="iifU3davIRE" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">
             2 - Firelight Chant
           </h3>
-          <YouTube videoId="K61_jzKc1nE" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="K61_jzKc1nE" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
-            3 - Trust in You
-          </h3>
-          <YouTube videoId="jmVOhW18DcY" opts={opts} onReady={this._onReady} />
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">3 - Trust in You</h3>
+          <YouTube videoId="jmVOhW18DcY" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">
             4 - Go Go Go With Us
           </h3>
-          <YouTube videoId="4tzYR6nLcic" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="4tzYR6nLcic" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">
             5 - Where You Lead
           </h3>
-          <YouTube videoId="HRxGWOhteN8" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="HRxGWOhteN8" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">6 - W I S E</h3>
-          <YouTube videoId="OIvp6kWNX-o" opts={opts} onReady={this._onReady} />
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">6 - W I S E</h3>
+          <YouTube videoId="OIvp6kWNX-o" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">
             7 - Peace Sweet Peace
           </h3>
-          <YouTube videoId="bmnf-mBvTlg" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="bmnf-mBvTlg" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">
             8 - Beautiful Day
           </h3>
-          <YouTube videoId="hP-2ncuuaAg" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="hP-2ncuuaAg" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
-            1 - Camp Firelight
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">
+            9 - Trust and Follow You
           </h3>
-          <YouTube videoId="eCI9rA0XHcY" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="eCI9rA0XHcY" />
         </div>
-        <div className="mb-12">
-          <h3 className="text-center w-full text-2xl mb-12">
-            1 - Camp Firelight
+        <div className="mb-12 flex flex-col items-center">
+          <h3 className="text-center w-full text-2xl mb-4">
+            10 - What Trust Looks Like
           </h3>
-          <YouTube videoId="vqLX3ESboCE" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="vqLX3ESboCE" />
         </div>
       </div>
     </div>
