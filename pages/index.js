@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Player from "@madzadev/audio-player";
 import "@madzadev/audio-player/dist/index.css";
+import YouTube from "react-youtube";
 
 const tracks = [
   {
@@ -98,6 +99,66 @@ export default function Home() {
           ) : (
             <p>Loading...</p>
           )}
+        </div>
+      </div>
+      <div className="w-10/12 p-6">
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            1 - Camp Firelight
+          </h3>
+          <YouTube videoId="iifU3davIRE" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            2 - Firelight Chant
+          </h3>
+          <YouTube videoId="K61_jzKc1nE" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            3 - Trust in You
+          </h3>
+          <YouTube videoId="jmVOhW18DcY" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            4 - Go Go Go With Us
+          </h3>
+          <YouTube videoId="4tzYR6nLcic" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            5 - Where You Lead
+          </h3>
+          <YouTube videoId="HRxGWOhteN8" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">6 - W I S E</h3>
+          <YouTube videoId="OIvp6kWNX-o" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            7 - Peace Sweet Peace
+          </h3>
+          <YouTube videoId="bmnf-mBvTlg" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            8 - Beautiful Day
+          </h3>
+          <YouTube videoId="hP-2ncuuaAg" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            1 - Camp Firelight
+          </h3>
+          <YouTube videoId="eCI9rA0XHcY" opts={opts} onReady={this._onReady} />
+        </div>
+        <div className="mb-12">
+          <h3 className="text-center w-full text-2xl mb-12">
+            1 - Camp Firelight
+          </h3>
+          <YouTube videoId="vqLX3ESboCE" opts={opts} onReady={this._onReady} />
         </div>
       </div>
     </div>
